@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1.Windows", "App1\App1.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1.WindowsPhone", "App1\App1.WindowsPhone\App1.WindowsPhone.csproj", "{AE8EADB8-F766-489A-A44B-828B8691657F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{4E30CC97-B580-4FA7-BE23-64F9A1F2C34F}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		App1\App1.Shared\App1.Shared.projitems*{eff9503c-0c66-49ec-8e1c-462f8afcb787}*SharedItemsImports = 4
@@ -72,6 +74,16 @@ Global
 		{AE8EADB8-F766-489A-A44B-828B8691657F}.Release|x86.ActiveCfg = Release|x86
 		{AE8EADB8-F766-489A-A44B-828B8691657F}.Release|x86.Build.0 = Release|x86
 		{AE8EADB8-F766-489A-A44B-828B8691657F}.Release|x86.Deploy.0 = Release|x86
+		{4E30CC97-B580-4FA7-BE23-64F9A1F2C34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E30CC97-B580-4FA7-BE23-64F9A1F2C34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E30CC97-B580-4FA7-BE23-64F9A1F2C34F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{4E30CC97-B580-4FA7-BE23-64F9A1F2C34F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4E30CC97-B580-4FA7-BE23-64F9A1F2C34F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4E30CC97-B580-4FA7-BE23-64F9A1F2C34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E30CC97-B580-4FA7-BE23-64F9A1F2C34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E30CC97-B580-4FA7-BE23-64F9A1F2C34F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{4E30CC97-B580-4FA7-BE23-64F9A1F2C34F}.Release|x64.ActiveCfg = Release|Any CPU
+		{4E30CC97-B580-4FA7-BE23-64F9A1F2C34F}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
