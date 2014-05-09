@@ -5,10 +5,12 @@
     xmlns:local="using:App1"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    DataContext="{Binding SharedViewModel, Mode=OneWay, Source={StaticResource Locator}}">
 
     <Grid>
-
+        <TextBlock Text="{Binding TestProperty}" Margin="10,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
     </Grid>
 </Page>

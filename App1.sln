@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1.Windows", "App1\App1.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1.WindowsPhone", "App1\App1.WindowsPhone\App1.WindowsPhone.csproj", "{AE8EADB8-F766-489A-A44B-828B8691657F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{4E30CC97-B580-4FA7-BE23-64F9A1F2C34F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedViewModels", "ClassLibrary1\SharedViewModels.csproj", "{4E30CC97-B580-4FA7-BE23-64F9A1F2C34F}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
